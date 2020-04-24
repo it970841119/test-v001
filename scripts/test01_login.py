@@ -27,3 +27,4 @@ class TestLogin(unittest.TestCase):
         # 追加到api公共变量
         api.headers["Authorization"] = "Bearer " + token
         print(api.headers)
+        print("passwed SDK")
